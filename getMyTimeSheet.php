@@ -36,7 +36,6 @@ FROM (
     and EXTRACT('year' from att_date)=$attyear
 ) x;
 ";
-
 	// print_r($sql);
     
     $myArr = $myPDO->query($sql);
